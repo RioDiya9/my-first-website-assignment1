@@ -1,0 +1,125 @@
+
+
+.azeret-mono-simple {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+*{
+  margin: 0;
+  font-family 
+}
+
+nav {
+  height: 652px;
+  width: 1440px;
+  background-color: rgb(243, 237, 241);
+  border: 2px solid black;
+  
+ /* border-radius: 50%;*/
+
+
+}
+
+/*h1{
+  width: 998px;
+  height: 131px;
+  background-color: fuchsia;
+  border-width: 3px;
+  background-origin: padding-box;
+  text-align: center;
+  font-family: Azeret Mono;
+}
+/*
+#Box1 {
+  position: relative;
+  width: 1440px;
+  height: 5245px;
+  top: -5px;
+  display: flexbox ;
+}
+
+#Box2 {
+  position: static;
+  width: 700px;
+  height: 500px;
+  bottom:20px;
+  top: 15px;
+  display: grid;
+  background-color: rgb(46, 46, 204);
+}
+
+#Box3 {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  background-color: rgb(113, 219, 219);
+  margin: 50px;
+}
+
+#Box4 {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  bottom: 20px;
+  top: -50px;
+  display: inline-table;
+  background-color: rgb(133, 180, 85);
+  }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#doi
+  Width : 1440px;
+Height: 652pxpx
+Top: 131pxpx
+Left: 0pxpx
+Fillet radius: 0px;
+
+/*
+.title{
+  font-size: 48px;
+  font-weight: 800px;
+  letter-spacing: 0;
+  text-align: center;
+  rgb(13, 19, 33)
+}
+  */
+
+/*.box-1{
+    width: 480px;
+    height: 217.33px;
+    background-color:  rgb(96, 48, 209);
+  background-image: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: rgb(255, 255, 255);*/
+/*padding-top: 131px;
+}
+
+.content{
+  font-family:"Azeret Mono", monospace;;
+  font-size: 48px;
+  font-weight: 800px;
+  row-height: 68px;
+  letter-spacing: 0;
+  align:center
+}
+*/
