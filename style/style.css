@@ -7,21 +7,28 @@
 }
 
 
+body {
+  width: 1440px;
+  height: 5245px;
+  box-sizing: border-box;
+  position: sticky;
+ 
+}
 nav{
   display: flex;
   justify-content: space-between;
-  border: 50px 150px;
-  background-color: rgb whitegi;
+  background-color: rgb white;
   
 }
 
-nav ul {
+nav ul{
   display: flex;
 
 }
 nav ul li {
 list-style-type:none;
 margin: 10px 5px;
+margin-left: 200px;
 }
 nav ul li {
   text-decoration: none;
@@ -33,5 +40,169 @@ nav div {
   font-size: 20px;
   font-weight: bolder;
   text-decoration: none;
+  margin-left: 90px;
+}
+/*banner start here */
+header {
+  
+  padding:0 150px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+.banner {
+  width: 1440px;
+  height: 652px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  border:  150 50 150;
+  outline-width: 5px;
+  outline-color: rgb(76, 0, 255);
+  outline-style: solid;
+  background-image: url('../assets/Hero-bg.png');
+
+}
+.banner h1 {
+  color: rgb(13, 19, 33);
+  font-size: 40px;
+  display: flex;
+  margin:0 auto;
+  text-align: center;
+}
+.banner p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  text-align:  bottom center;
+
+}
+.banner img {
+  
+margin: 0 auto;
+
+}
+/* main section start here*/
+
+main {
+  background-color:rgb(255, 255, 255);
+  width: 1440px;
+  height: 5245px;
+  
+}
+#main-section {
+width: 1140px;
+height: 1395px;
+left: 148px;
+right: 152px;
+top: 857px;
+bottom: 2993px;
+margin: auto;
+margin-left: 200px;
+padding: 80px 97px 80px 97px
+/*Auto layout 
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+;*/
+
+
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  line-height: 100px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 24px 21px 24px;
+
+
+  
+}
+
+.main-btn-text {
+width: 208px;
+height: 66px;
+left: 616px;
+right: 616px;
+top: 805px;
+bottom: 4374px;
+
+
+
+}
+
+.main-text-style {
+  display: flex;
+  line-height: 26px;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.main-text-style h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: bolder;
+  position: static;
+  width: 852px;
+  height: 115px;flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 48px 0px;
+
+  
+}
+
+.main-text-style p{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400px;
+width: 852px;
+height: 52px;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+/*SECTION PARENT 2 START HERE*/
+#parent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px;
+  border-radius: 16px;
+
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  color: (255, 255, 255),
+  rgba(255, 255, 255, 0)
+  
+}
+
+
+.child .child-text {
+width: 946px;
+height: 336px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+color: rgb(255, 255, 255)
+rgba(255, 255, 255, 0);
 }
 
